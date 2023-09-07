@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+	int a ;
+	int b ;
+	double c = ( a + b )/2.0;
+	scanf("%d %d, &a, &b");
+	printf("%d和%d的平均值=%f\n",a ,b , c );
+	return 0;
+}

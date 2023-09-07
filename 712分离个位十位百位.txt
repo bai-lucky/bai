@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+	int a=712 ;
+	int b = a / 100;
+	int d = a % 10;
+	int f = a / 10;
+	int c = f % 10;
+	printf("个位：%d\n 十位 ：%d\n 百位;%d\n", d, c,b );
+	return 0;
+}
