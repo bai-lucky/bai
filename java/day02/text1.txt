@@ -1,0 +1,24 @@
+package yunsuanfu;
+import java.util.Scanner;
+
+public class text1 {
+
+	public static void main(String[] args) {
+		//键盘录入一个三位数，取个位十位百位
+		Scanner ms=new  Scanner(System.in);
+		System.out.println("请输入一个三位数");
+		 
+		int i=ms.nextInt();
+		int a=i%10;
+		System.out.println("输出个位："+a);
+		int b=i/10%10;
+		System.out.println("输出十位："+b);
+		int c=i/100;
+		System.out.println("输出百位："+c);
+		
+		
+	
+		
+	}
+
+}

@@ -1,0 +1,32 @@
+package yunsuanfu;
+
+public class jibenyunsuan {
+
+	public static void main(String[] args) {
+		//+
+	    System.out.println(3+2);//5
+	    //-
+	    System.out.println(3-2);//1
+	    //*
+	    System.out.println(7*9);//63
+	    //如果在计算中有小数参与
+	    //结论：
+	    //在代码中，如果有小数参与计算，结果可能不准确
+	     
+	    //除法
+	    System.out.println(10/2);//5
+	    System.out.println(10/3);//3
+	    System.out.println(10.0/3);//3.3333333333333335
+	    //整数参与计算，只能得到整数
+	    //小数参与计算，结果可能是不准确的的
+	     
+	    //取模
+	    System.out.println(10%2);//0
+	    System.out.println(10%3);//1
+	    
+	    //取模应用场景;
+	    //1.可以判断一个数是否能被整除
+	    //2.可以判断一个数是不是偶数
+	}
+
+}
